@@ -39,8 +39,8 @@ void loop()
   digitalWrite(led2,HIGH);    // posar a 5V el pin 7
   digitalWrite(led3, HIGH);    // posar a 5V el pin 8
   digitalWrite(led4, HIGH);    // posar a 5V el pin 9
-  digitalWrite(led5, LOW);    // posar a 5V el pin 10
-  digitalWrite(led6, HIGH);    // posar a 5V el pin 11
+  digitalWrite(led5, HIGH);    // posar a 5V el pin 10
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11
   
   delay(t);                  // es queden leds 500ms encesos
   
@@ -57,8 +57,8 @@ void loop()
   digitalWrite(led2, LOW);     // posar a 0V el pin 7
   digitalWrite(led3, HIGH);     // posar a 0V el pin 8
   digitalWrite(led4, HIGH);     // posar a 0V el pin 9
-  digitalWrite(led5, HIGH);     // posar a 0V el pin 10
-  digitalWrite(led6, LOW);     // posar a 0V el pin 11
+  digitalWrite(led5, LOW);     // posar a 0V el pin 10
+  digitalWrite(led6, HIGH);     // posar a 0V el pin 11
   
     delay(t);                  // es queden leds 500ms encesos
   digitalWrite(led0, HIGH);     // posar a 0V el pin 5
@@ -66,8 +66,8 @@ void loop()
   digitalWrite(led2, HIGH);     // posar a 0V el pin 7
   digitalWrite(led3, HIGH);     // posar a 0V el pin 8
   digitalWrite(led4, LOW);     // posar a 0V el pin 9
-  digitalWrite(led5, HIGH);     // posar a 0V el pin 10
-  digitalWrite(led6, LOW);     // posar a 0V el pin 11
+  digitalWrite(led5, LOW);     // posar a 0V el pin 10
+  digitalWrite(led6, HIGH);     // posar a 0V el pin 11
   
    delay(t);                  // es queden leds 500ms encesos
    digitalWrite(led0, LOW);     // posar a 0V el pin 5
