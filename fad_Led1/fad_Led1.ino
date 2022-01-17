@@ -9,7 +9,7 @@ const byte led2 = 6;          // donar nom al pin 6 de l’Arduino
 const byte led3 = 9;          // donar nom al pin 9 de l’Arduino
 const byte led4 = 10;         // donar nom al pin 10 de l’Arduino
 const byte led5 = 11;         // donar nom al pin 11 de l’Arduino
-unsigned long velocitat = 500;         // velocitat de l'acció en ms
+unsigned long velocitat = 50;         // velocitat de l'acció en ms
 
 //********** Setup ****************************************************************
 void setup()
