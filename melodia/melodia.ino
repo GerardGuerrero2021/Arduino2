@@ -9,7 +9,7 @@
 
 //******* Variables ***********************************************************
 const byte speakerPin = 9;   // pin for speaker
-int tempo = 300;
+int tempo = 100;
 
 //Melody 1
 //int length = 15; // the number of notes
